@@ -9,20 +9,20 @@
 </head>
 <body>
     <fieldset>
-        <legend>Cálculo do salário</legend>
-        <label>Valor 1:</label>
+        <legend>Login</legend>
+        <label>usuario</label>
         <input id="txt1" type="text"/>
-        <label>Valor 2: </label>
+        <label>Senha </label>
         <input id="txt2" type="text"/>
-        <button id="somar" onclick="somarValores()">Somar</button>
+        <button id="somar" onclick="somarValores()">Entrar</button>
     </fieldset>
 </body>
 <script type="text/javascript">
     function somarValores(){
         var s1 = document.getElementById("txt1").value;
         var s2 = document.getElementById("txt2").value;
-        if (s1 == s2){
-            alert('é igual');
+        if(s1 == 'art' && s2 == '123'){
+            alert('Logado');
 
         }
     }
